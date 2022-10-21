@@ -32,6 +32,7 @@ func main() {
 	switch option {
 	case 1:
 		print(add(a, b))
+		
 	case 2:
 		print(mul(a,b))
 	case 3:
@@ -40,6 +41,7 @@ func main() {
 		print(div(a,b))
 	default:
 		fmt.Println("Invalid option!")
+
 	} 
 
 	middle, msg := middleValue(23,23,423,323)
